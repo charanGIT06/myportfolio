@@ -135,7 +135,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-flow: row wrap; 
+    /* flex-flow: row wrap;  */
     justify-content: center;
     align-items: center;
     gap: 2rem;      
@@ -227,6 +227,10 @@ footer h2 {
     padding: 1rem;
 }
 @media (max-width: 550px) {
+    nav ul {
+        flex-direction: column;
+        fle
+    }
     #intro .right {
         display: none;
     }
