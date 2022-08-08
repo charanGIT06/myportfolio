@@ -229,7 +229,6 @@ footer h2 {
 @media (max-width: 550px) {
     nav ul {
         flex-direction: column;
-        fle
     }
     #intro .right {
         display: none;
